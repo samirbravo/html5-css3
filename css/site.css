@@ -70,29 +70,6 @@ h2 {
     font-size: 30px;
 }
 
-
-blockquote {
-    background-color: #D9E5E3;
-    padding: 15px;
-    border: 10px solid #C2CCCA;
-    width: 300px;
-    margin: 20px 20px;
-    box-sizing: border-box;
-}
-
-.citacao_fiat {
-    float: right;
-}
-
-.citacao_petrobras {
-    float: left;
-}
-
-cite {
-    font-style: italic;
-    float: right;
-}
-
 .subtitulo-texto {
     clear: both;
 }
@@ -127,15 +104,15 @@ aside a {
 }
 
 .github {
-    background-image: url(github.png);
+    background-image: url(../img/github.png);
 }
 
 .twitter {
-    background-image: url(twitter.png);
+    background-image: url(../img/twitter.png);
 }
 
 .linkedin {
-    background-image: url(linkedin.png);
+    background-image: url(../img/linkedin.png);
 }
 
 #rodape-pagina {
