@@ -19,8 +19,7 @@ main h1 {
     background-color: #851944;
     color: #FFF;
     padding: 25px;
-    border: 10px solid black;
-    border-right: none;
+    border-bottom: 10px solid black;
 }
 
 main div {
@@ -32,14 +31,26 @@ main div {
 main {
     float: left;
     width: 85%;
+    padding-bottom: 80px;
 }
 
 .minha-foto, .navegacao-site {
     float: right;
-    width: 15%;
     box-sizing: border-box;
     border-left: 10px solid black;
     border-bottom: 10px solid black;
+}
+
+.minha-foto{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.navegacao-site {
+    width: 15%;
+    position: relative;
+    top: 310px;
 }
 
 p {
@@ -133,6 +144,10 @@ aside a {
     padding: 20px;
     clear: both;
     text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 nav a {
