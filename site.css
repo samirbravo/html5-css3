@@ -51,10 +51,11 @@ blockquote {
     box-sizing: border-box;
 }
 
-aside {
+.navegacao-site {
     background-color: #3C1D3D;
     color: #F2FFFC;
     padding: 20px;
+    text-align: center;
 }
 
 aside h1 {
@@ -62,11 +63,17 @@ aside h1 {
     margin-bottom: 25px;
 }
 
-aside li{
+aside a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+    text-decoration: none;
+}
+
+.icones-redes-sociais li{
     display: inline-block;
 }
 
-footer {
+#rodape-pagina {
     background-color: #000;
     color: #F2FFFC;
     padding: 20px;
@@ -80,7 +87,17 @@ main a {
     color: #851944;
 }
 
-aside a {
-    color: inherit;
-    font-family: "Open Sans Condensed", sans-serif;
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.leia-mais {
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
 }
