@@ -20,12 +20,26 @@ main h1 {
     color: #FFF;
     padding: 25px;
     border: 10px solid black;
+    border-right: none;
 }
 
 main div {
     width: 720px;
     margin: auto;
     padding: 30px 0;
+}
+
+main {
+    float: left;
+    width: 85%;
+}
+
+.minha-foto, .navegacao-site {
+    float: right;
+    width: 15%;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
 }
 
 p {
@@ -48,11 +62,28 @@ h2 {
 
 blockquote {
     background-color: #D9E5E3;
-    padding: 20px;
+    padding: 15px;
     border: 10px solid #C2CCCA;
-    width: 250px;
-    margin: 20px 40px;
+    width: 300px;
+    margin: 20px 20px;
     box-sizing: border-box;
+}
+
+.citacao_fiat {
+    float: right;
+}
+
+.citacao_petrobras {
+    float: left;
+}
+
+cite {
+    font-style: italic;
+    float: right;
+}
+
+.subtitulo-texto {
+    clear: both;
 }
 
 .navegacao-site {
@@ -100,6 +131,8 @@ aside a {
     background-color: #000;
     color: #F2FFFC;
     padding: 20px;
+    clear: both;
+    text-align: center;
 }
 
 nav a {
